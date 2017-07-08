@@ -1,0 +1,25 @@
+
+body {
+	margin: 0 auto;
+	background-color: #8D8D8D;
+	font-family: "Open Sans Condensed", sans-serif;
+}
+
+nav {
+	background-color: #3983FF;
+}
+
+.brand-logo {
+	margin: 0 0 0 10px;
+}
+
+.card .card-image .card-title{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
+	color: #3983FF;
+}
+
+
