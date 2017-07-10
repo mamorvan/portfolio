@@ -33,7 +33,7 @@
 	<div class="navbar-fixed">
 		<nav>
 		  <div class="nav-wrapper">
-            <a href="#" id="logo" class="brand-logo">MM</a>
+            <a href="#" id="logo">MM</a>
 		    <ul class="right">
                 <li><a class="navlink" href="https://github.com/mamorvan"><img src="images/github.png" alt="GitHub" width="40"></a></li>
                 <li><a class="navlink" href="https://www.linkedin.com/in/mary-morvan"><img id="linkedin-image" src="images/linkedin.png" alt="LinkedIn" width="40"></a></li>
@@ -44,11 +44,14 @@
 		</nav>
 	</div> <!--end of fixed navbar div-->
 
-    <div class="parallax">
+    <div class="parallax-container">
+        <div class="parallax">
+        <img src="images/background.jpg">
         <header>  
             <h1 id="name">Mary Morvan</h1>
             <h4 class="flow-text">Full-Stack Web Developer<br>based in Raleigh-Durham, NC</h4>
         </header>
+        </div>
     </div>
     <div class="portfolio-container">
         <div class="row">
@@ -160,7 +163,8 @@
 
   	<!--a tiny bit of script to activate drop-down menu in navbar-->
   	<script type="text/javascript">
-  		$(".dropdown-button").dropdown();
+  	    $(".dropdown-button").dropdown();
+        $(".parallax").parallax();
   	</script>
 
 </body>
