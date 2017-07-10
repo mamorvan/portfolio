@@ -11,11 +11,13 @@ body {
 /*****navbar*****/
 nav {
 	background-color: #407A9F;
+    opacity: .85;
     border-bottom: 3px solid #DBC56F;
     color: #291A34;
     height: 60px;
 }
 .navlink {
+    height: 60px;
     padding: 2px;
     color: #291A34;
     font-size: 18px;
@@ -28,7 +30,23 @@ nav {
 #linkedin-image {
     margin-top: 10px;
 }
+.dropdown-content {
+    background-color: #407A9F;
+}
+#projects {
+    top: 60px !important;
+    opacity: .95 !important;
+    border: 2px solid #DBC56F;
+    border-top: none;
+}
+.dropdown-content li>a {
+       color: #291A34;
+}
+.dropdown-content li:hover {
+       background-color: rgba(0,0,0,0.1);
+}
 
+/*****header****/
 .parallax {
     background-image: url("images/background.jpg");
     height: 90%;
@@ -38,7 +56,6 @@ nav {
     background-size: cover;
     z-index: -1000;
 }
-
 header {
     background-color: #407A9F;
     opacity: .75;
@@ -48,6 +65,9 @@ header {
     width: 50%;
     color: #291A34;
     text-align: center;  
+}
+#name {
+    color: #DBC56F;
 }
 
 .portfolio-container {
