@@ -16,6 +16,10 @@ nav {
     color: #291A34;
     height: 60px;
 }
+#logo {
+    color: #DBC56F;
+    margin: 0 20px;
+}
 .navlink {
     height: 60px;
     padding: 2px;
@@ -85,8 +89,6 @@ header {
 .card .card-image {
 	border: 2px solid #DBC56F;
 }
-
-
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
 	color: #DBC56F;
