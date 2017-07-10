@@ -1,25 +1,75 @@
+html, body {
+    height: 100%;
+}
 
 body {
 	margin: 0 auto;
-	background-color: #8D8D8D;
+	background-color: #407A9F;
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
+/*****navbar*****/
 nav {
-	background-color: #3983FF;
+	background-color: #407A9F;
+    border-bottom: 3px solid #DBC56F;
+    color: #291A34;
+    height: 60px;
+}
+.navlink {
+    padding: 2px;
+    color: #291A34;
+    font-size: 18px;
+    padding: 0 15px;
+    text-align: center;
+}
+.navlink>img {
+    margin-top: 6px;
+}
+#linkedin-image {
+    margin-top: 10px;
 }
 
-.brand-logo {
-	margin: 0 0 0 10px;
+.parallax {
+    background-image: url("images/background.jpg");
+    height: 90%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1000;
 }
 
-.card .card-image .card-title{
-	color: white;
-	text-shadow: 2px 2px 5px black;
+header {
+    background-color: #407A9F;
+    opacity: .75;
+    margin: 100px auto;
+    padding: 50px;
+    height: 50%;
+    width: 50%;
+    color: #291A34;
+    text-align: center;  
 }
+
+.portfolio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 700px;
+}
+
+.card {
+    opacity: .85;
+}
+.card-content {
+    color: #291A34;
+}
+.card .card-image {
+	border: 2px solid #DBC56F;
+}
+
+
 
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-	color: #3983FF;
+	color: #DBC56F;
 }
 
 

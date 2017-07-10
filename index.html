@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>Links to Bootcamp Assignments</title>
+	<title>Portfolio</title>
 	<link rel="shortcut icon" href="images/star.png" type="image/png">
 
 	<!--GOOGLE FONTS-->
@@ -11,7 +11,7 @@
   	    
 	<link rel="stylesheet" href="style.css" type="text/css">
 	
-	<meta name="viewport" content="width=device-width, initial-scale-1.0"/>
+	<meta name="viewport" content="width=device-width"/>
 
 </head>
 
@@ -31,133 +31,123 @@
 	<div class="navbar-fixed">
 		<nav>
 		  <div class="nav-wrapper">
-		    <a href="#" class="brand-logo">Mary Morvan</a>
-		    <ul class="right hide-on-med-and-down">
-		      <!-- Dropdown Trigger -->
-		      <li><a class="dropdown-button" href="#!" data-activates="projects">Portfolio Projects<i class="material-icons right"></i></a></li>
+		    <ul class="right">
+                <li><a class="navlink" href="https://github.com/mamorvan"><img src="images/github.png" alt="GitHub" width="40"></a></li>
+                <li><a class="navlink" href="https://www.linkedin.com/in/mary-morvan"><img id="linkedin-image" src="images/linkedin.png" alt="LinkedIn" width="40"></a></li>
+		        <!-- Dropdown Trigger -->
+		        <li><a  class="dropdown-button navlink" href="#!" data-activates="projects">Projects<i class="material-icons right"></i></a></li>
 		    </ul>
 		  </div>
 		</nav>
 	</div> <!--end of fixed navbar div-->
 
-    <div class="row">
-        <img src="images/profile.jpg" alt="profile pic"> 
+    <div class="parallax">
+        <header>  
+            <h1>Mary Morvan</h1>
+            <h4>Full-Stack Web Developer<br>based in Raleigh-Durham, NC</h4>
+        </header>
     </div>
-	        
-	<div class="row">
-		<!--col1-->
-    	<div id="trivia" class="col s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-              <img src="images/trivia.png">
-              <span class="card-title">TRIVIA GAME</span>
-            </div>
-            <div class="card-content">
-              <p>A timed trivia game about Ancient Egypt using javascript and jQuery</p>
-            </div> <!--end of card content div-->
-            <div class="card-action">
-              <a href="https://mamorvan.github.io/TriviaGame/index.html" target="_blank">Check out my Trivia Game</a>
-              <hr>
-              <a href="https://github.com/mamorvan/TriviaGame" target="_blank">or read the code on Github</a>
-            </div> <!--end of card-action div-->
-          </div> <!--end of card div-->
-        </div> <!--end of col s12 m6 div-->
+    <div class="portfolio-container">
+        <div class="row">
 
-        <!--col2-->
-        <div id="movies-to-books" class="col s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-                <img src="images/moviestobooks.png">
-                <span class="card-title">WOULD YOU LIKE A BOOK?</span>
-            </div>
-            <div class="card-content">
-                <p>Worked on cleaning up code and fixing some bugs with group project.</p>
-            </div> <!--end of card content div-->
-            <div class="card-action">
-                <a href="https://mamorvan.github.io/Would-You-Like-A-Book/" target="_blank">Check out my version of Would You Like A Book With That Movie?</a>
-                <hr>
-                <a href="https://github.com/mamorvan/Would-You-Like-A-Book" target="_blank">or read the code on Github</a>
-            </div> <!--end of card-action div-->
-            </div> <!--end of card div-->
-        </div> <!--end of col2-->
-    </div> <!--end of row1-->
+            <!--col1 -->
+            <div id="safe-keeper" class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/SafeKeeper.png">
+                    </div>
+                    <div class="card-content">
+                        <h4>SafeKeeper</h4>
+                        <p>SafeKeeper provides secure user log-in in order to keep a personal property inventory<br><em>Full-stack group collaboration built using javascript, node, express.js, and backed by a SQL database.</em></p>
+                    </div> <!--end of card content div-->
+                    <div class="card-action">
+                        <a href="https://safe-stream-99507.herokuapp.com/" target="_blank">Start your own inventory!</a>
+                        <hr>
+                        <a href="https://github.com/MASTIN/Virtual-Locker" target="_blank">or read the code on Github</a>
+                    </div> <!--end of card-action div-->
+                </div> <!--end of card div-->
+            </div> <!--end of col1-->
 
-    <div class="row"> <!--row2-->
-        <!--col1-->
-		<div id="code-friend" class="col s12 m6">
-          <div class="card hoverable">
-            <div class="card-image">
-                <img src="images/CodeFriend Finder.png">
-                <span class="card-title">CodeFriend Finder</span>
-            </div>
-            <div class="card-content">
-                <p>CodeFriend Finder uses Express.js to match the user with a coding buddy.</p>
-            </div> <!--end of card content div-->
-            <div class="card-action">
-                <a href="https://fierce-island-35221.herokuapp.com/" target="_blank">Check out my CodeFriend Finder</a>
-                <hr>
-                <a href="https://github.com/mamorvan/FriendFinder" target="_blank">or read the code on Github</a>
-            </div> <!--end of card-action div-->
-        </div> <!--end of card div-->
-        </div> <!--end of col1-->
-		<!--col2 -->
-    	<div id="safe-keeper" class="col s12 m6">
-            <div class="card hoverable">
-            <div class="card-image">
-                <img src="images/SafeKeeper.png">
-                <span class="card-title">SafeKeeper</span>
-            </div>
-            <div class="card-content">
-                <p>SafeKeeper is a full-stack application which provides secure user log-in in order to keep a personal property inventory using a SQL database.</p>
-            </div> <!--end of card content div-->
-            <div class="card-action">
-                <a href="https://safe-stream-99507.herokuapp.com/" target="_blank">Start your own inventory!</a>
-                <hr>
-                <a href="https://github.com/MASTIN/Virtual-Locker" target="_blank">or read the code on Github</a>
-            </div> <!--end of card-action div-->
-            </div> <!--end of card div-->
-        </div> <!--end of col2-->
-  </div> <!--end of row2-->
+            <!--col2-->
+            <div id="local-scraper" class="col s12 m6">
+                <div class="card hoverable">
+                <div class="card-image">
+                    <img src="images/LocalScraper.png">
+                </div>
+                <div class="card-content">
+                    <h4>The Local Scraper</h4>
+                    <p>The Local Scraper scrapes The Local.se for headlines and allows users to save articles and comments.<br><em>Articles and comments are saved to a noSQL database</em></p>
+                </div> <!--end of card content div-->
+                <div class="card-action">
+                    <a href="https://glacial-springs-94882.herokuapp.com/" target="_blank">Read the latest Swedish news</a>
+                    <hr>
+                    <a href="https://github.com/mamorvan/The-Local-SE" target="_blank">or read the code on Github</a>
+                </div> <!--end of card-action div-->
+                </div> <!--end of card div-->
+            </div> <!--end of col2-->    
+        </div> <!--end of row1-->
 
-  <div class="row"> <!--row3-->
-        <!--col1-->
-        <div id="local-scraper" class="col s12 m6">
-          <div class="card hoverable">
-          <div class="card-image">
-            <img src="images/LocalScraper.png">
-            <span class="card-title">The Local Scraper</span>
-          </div>
-          <div class="card-content">
-            <p>The Local Scraper scrapes The Local.se for headlines and allows users to save articles and comments to a noSQL database.</p>
-          </div> <!--end of card content div-->
-          <div class="card-action">
-            <a href="https://glacial-springs-94882.herokuapp.com/" target="_blank">Read the latest Swedish news</a>
-            <hr>
-            <a href="https://github.com/mamorvan/The-Local-SE" target="_blank">or read the code on Github</a>
-          </div> <!--end of card-action div-->
-        </div> <!--end of card div-->
-        </div> <!--end of col-->
+        <div class="row"> <!--row2-->
 
-        <!--col2-->
-			<div id="final-project" class="col s12 m6">
-           <div class="card hoverable">
-          <div class="card-image">
-            <img src="images/coming.jpg">
-            <span class="card-title">Coming Soon</span>
-          </div>
-          <div class="card-content">
-            <p>Coming Soon</p>
-          </div> <!--end of card content div-->
-          <div class="card-action">
-            <a href="" target="_blank">Coming Soon</a>
-            <hr>
-            <a href="" target="_blank">or read the code on Github</a>
-          </div> <!--end of card-action div-->
-        </div> <!--end of card div-->
-        </div> <!--end of col3-->
-    </div> <!--end of row3-->
+            <!--col1-->
+            <div id="movies-to-books" class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/moviestobooks.png">
+                    </div>
+                    <div class="card-content">
+                        <h4>WOULD YOU LIKE A BOOK?</h4>
+                        <p> Would You Like a Book provides a user with book recommendations based on their favorite movies.<br><em>Front-End group collaboration using Google Books and Movie Database APIs</em></p>
+                    </div> <!--end of card content div-->
+                    <div class="card-action">
+                        <a href="https://mamorvan.github.io/Would-You-Like-A-Book/" target="_blank">Get some book recommendations!</a>
+                        <hr>
+                        <a href="https://github.com/mamorvan/Would-You-Like-A-Book" target="_blank">or read the code on Github</a>
+                    </div> <!--end of card-action div-->
+                </div> <!--end of card div-->
+            </div> <!--end of col1-->
 
-  
+            <!--col2-->
+            <div id="trivia" class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/trivia.png">
+                    </div>
+                    <div class="card-content">
+                        <h4>ANCIENT EGYPT TRIVIA GAME</h4>
+                        <p>A timed trivia game about Ancient Egypt<br>Built using javascript and jQuery</p>
+                    </div> <!--end of card content div-->
+                    <div class="card-action">
+                        <a href="https://mamorvan.github.io/TriviaGame/index.html" target="_blank">Test your Knowledge of Ancient Egypt!</a>
+                        <hr>
+                        <a href="https://github.com/mamorvan/TriviaGame" target="_blank">or read the code on Github</a>
+                    </div> <!--end of card-action div-->
+                </div> <!--end of card div-->
+            </div> <!--end of col2-->       
+        </div> <!--end of row2-->
+
+        <div class="row"> <!--row3-->
+        
+            <!--col1-->
+            <div id="code-friend" class="col s12 m6">
+                <div class="card hoverable">
+                    <div class="card-image">
+                        <img src="images/CodeFriend Finder.png">    
+                    </div>
+                    <div class="card-content">
+                        <h4>CodeFriend Finder</h4>
+                        <p>CodeFriend Finder matches a user with a coding buddy <br><em>Built with Node and Express.js</em></p>
+                    </div> <!--end of card content div-->
+                    <div class="card-action">
+                        <a href="https://fierce-island-35221.herokuapp.com/" target="_blank">Find a Coding Buddy!</a>
+                        <hr>
+                        <a href="https://github.com/mamorvan/FriendFinder" target="_blank">or read the code on Github</a>
+                    </div> <!--end of card-action div-->
+                </div> <!--end of card div-->
+            </div> <!--end of col1--> 
+        
+        </div> <!--end of row3-->
+    </div>
 
 	<!--JQUERY-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
