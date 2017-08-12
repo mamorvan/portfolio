@@ -92,4 +92,13 @@ header {
 	color: #DBC56F;
 }
 
+@media (max-width: 600px) {
+    #name {
+        font-size: 40px;
+    }
+    #resume {
+        width: 100% !important;
+    }
+}
+
 
