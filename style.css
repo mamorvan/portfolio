@@ -23,7 +23,6 @@ nav {
 }
 .navlink {
     height: 60px;
-    padding: 2px;
     color: #291A34;
     font-size: 18px;
     padding: 0 15px;
@@ -98,6 +97,9 @@ header {
     }
     #resume {
         width: 100% !important;
+    }
+    .navlink {
+        padding: 0 10px;
     }
 }
 
