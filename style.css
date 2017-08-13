@@ -95,11 +95,13 @@ header {
 .card-action {
         text-align: center;
 }
-.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
-	color: #DBC56F;
-}
 .github-code {
-
+    background-color: #DBC56F;
+    padding: 2px;
+    border-radius: 50%;
+}
+.card .card-action a .github-code:hover{
+	opacity: .75;
 }
 
 /***** to remove right-space when switching from 2 cols to 1 col *****/
