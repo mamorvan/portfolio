@@ -5,16 +5,18 @@ html, body {
 body {
 	margin: 0 auto;
 	background-color: #407A9F;
-	font-family: "Open Sans Condensed", sans-serif;
+	font-family: "Arima Madurai", sans-serif;
 }
 
+p {
+    font-size: 16px;
+}
 /*****navbar*****/
 nav {
 	background-color: #407A9F;
-    opacity: .85;
     border-bottom: 3px solid #DBC56F;
     color: #291A34;
-    height: 60px;
+    height: 65px;
 }
 #logo {
     color: #DBC56F;
@@ -51,7 +53,7 @@ nav {
 }
 
 .parallax-container {
-    height: 80%;
+    height: 95%;
 }
 
 header {
@@ -59,7 +61,7 @@ header {
     opacity: .75;
     margin: 100px auto;
     padding: 5px;
-    height: 50%;
+    height: 33%;
     width: 50%;
     color: #291A34;
     text-align: center;  
@@ -87,20 +89,38 @@ header {
 .card .card-image {
 	border: 2px solid #DBC56F;
 }
+.card .card-image:hover {
+    opacity: .75;
+}
+.card-action {
+        text-align: center;
+}
 .card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating) {
 	color: #DBC56F;
 }
+.github-code {
 
+}
+
+/***** to remove right-space when switching from 2 cols to 1 col *****/
+@media (max-width: 992px) {
+    .col {
+        float: none !important;
+    }
+}
+
+/****** to make navbar and header size better ******/
 @media (max-width: 600px) {
+    .navlink {
+        padding: 0 5px;
+    }
     #name {
         font-size: 40px;
     }
     #resume {
         width: 100% !important;
     }
-    .navlink {
-        padding: 0 5px;
-    }
+
 }
 
 
