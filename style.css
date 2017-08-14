@@ -116,6 +116,9 @@ header {
     .navlink {
         padding: 0 5px;
     }
+    header {
+        height: 40%;
+    }
     #name {
         font-size: 40px;
     }
