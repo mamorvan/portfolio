@@ -112,7 +112,7 @@ header {
 }
 
 /****** to make navbar and header size better ******/
-@media (max-width: 600px) {
+@media (max-width: 735px) {
     .navlink {
         padding: 0 5px;
     }
